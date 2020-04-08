@@ -1,0 +1,239 @@
+<html>
+<head>
+    <style>
+        .block{
+            max-width: 33%;
+            max-height: 80%;
+            padding: 20px 10px;
+            font-size: 70%;
+        }
+        #block1{
+            background-image: url("back1.jpg");
+            position: absolute;
+            top:30%;
+            left: 25%;
+         }
+        .side{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+        }
+        #block2{
+            background-image: url("back2.jpg");
+            top:5%
+        }
+        #block3{
+            position: absolute;
+            background-image: url("back3.jpg");
+            left: 50%;
+        }
+        .centralImage{
+            box-sizing: border-box;
+            max-width: 95%;
+            border: 8px solid white;
+        }
+        .insideBlock{
+            max-width: 95%;
+            margin-top: 10%;
+            background: white;
+        }
+        .insideImg{
+            box-sizing: border-box;
+            max-width: 50%;
+            float: left;
+            border: 4px solid lawngreen;
+            margin-right: 5%;
+        }
+        .link{
+            margin-top: 10px;
+            text-decoration: underline;
+            color:blue;
+        }
+        .description{
+            color:white;
+            text-align: center;
+            max-width: 95%;
+        }
+        .blockMenu{
+            padding: 6%;
+        }
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .menu{
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .menu p{
+            padding-top: 3%;
+            padding-bottom: 3%;
+            text-align: center;
+            width: 33%;
+        }
+        #centralMenu{
+            background: cornflowerblue;
+            color:white;
+        }
+        #centralMenu p:hover {
+            background: forestgreen;
+        }
+        .sideMenu{
+            color: darkblue;
+        }
+        .sideMenu p:hover{
+            color: mediumvioletred;
+        }
+        #list2x2{
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            height: 100%;
+        }
+        #list2x2 img{
+            box-sizing: border-box;
+            max-width: 90%;
+            border: 3px solid white;
+        }
+        #list2x2 div{
+            width: 50%;
+            align-content: center;
+        }
+        #list1x4{
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+        #list1x4 img{
+            box-sizing: border-box;
+            max-width: 90%;
+            border: 6px solid white;
+        }
+        #list1x4 div{
+            width: 100%;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block side" id="block2" style="float: left">
+    <div style="width: 70%">
+        <div>
+            <img class="centralImage" src="snake.jpg">
+            <p class="description">Main image Lalalala Frog Snake</p>
+        </div>
+        <div class="insideBlock">
+            <div class="menu sideMenu">
+                <p>About Friend</p>
+                <p>Marketplace</p>
+                <p>Tuts+Network</p>
+            </div>
+            <div class="blockMenu">
+                <img class="insideImg" src="fox.jpg">
+                <p>
+                    Celebrated delightful an especially increasing instrument am. Happiness remainder joy but earnestly for off. Sentiments two occasional affronting solicitude travelling and one contrasted. Sportsman do offending supported extremity breakfast by listening. Detract yet delight written farther his general. Took sold add play may none him few.
+                </p>
+                <p class="link">Visit to Our WebSite</p>
+            </div>
+        </div>
+    </div>
+    <div id="list2x2" style="width: 30%">
+        <div>
+            <img src="snake.jpg">
+            <p class="description">07:00</p>
+        </div>
+        <div>
+            <img src="snake.jpg">
+            <p class="description ">07:00</p>
+        </div>
+        <div>
+            <img src="snake.jpg">
+            <p class="description">07:00</p>
+        </div>
+        <div>
+            <img src="snake.jpg">
+            <p class="description">07:00</p>
+        </div>
+        <div>
+            <img src="fox.jpg">
+            <p class="description">07:00</p>
+        </div>
+        <div>
+            <img src="bug.jpg">
+            <p class="description">10:00</p>
+        </div>
+        <div>
+            <img src="snake.jpg">
+            <p class="description">12:00</p>
+        </div>
+        <div>
+            <img src="bug.jpg">
+            <p class="description">13:00</p>
+        </div>
+    </div>
+</div>
+<div class="block side" id="block3">
+    <div style="width: 70%" >
+        <div>
+            <img class="centralImage" src="bug.jpg">
+            <p class="description">Main image Lalalala Frog Snake</p>
+        </div>
+        <div class="insideBlock">
+            <div class="menu sideMenu">
+                <p>About Friend</p>
+                <p>Marketplace</p>
+                <p>Tuts+Network</p>
+            </div>
+            <div class="blockMenu">
+                <img class="insideImg" src="fox.jpg">
+                <p>
+                    Celebrated delightful an especially increasing instrument am. Happiness remainder joy but earnestly for off. Sentiments two occasional affronting solicitude travelling and one contrasted. Sportsman do offending supported extremity breakfast by listening. Detract yet delight written farther his general. Took sold add play may none him few.
+                </p>
+                <p class="link">Visit to Our WebSite</p>
+            </div>
+        </div>
+    </div>
+    <div id="list1x4" style="width: 30%">
+        <div>
+            <img src="fox.jpg">
+            <p class="description">07:00</p>
+        </div>
+        <div>
+            <img src="bug.jpg">
+            <p class="description">10:00</p>
+        </div>
+        <div>
+            <img src="snake.jpg">
+            <p class="description">12:00</p>
+        </div>
+        <div>
+            <img src="bug.jpg">
+            <p class="description">13:00</p>
+        </div>
+    </div>
+</div>
+
+<div class="block" id="block1">
+    <div style="width: 70%">
+        <img class="centralImage" src="fox.jpg">
+        <div class="insideBlock">
+            <div id="centralMenu" class="menu">
+                <p>About Friend</p>
+                <p>Marketplace</p>
+                <p>Tuts+Network</p>
+            </div>
+            <div class="blockMenu">
+                <img class="insideImg" src="snake.jpg">
+                <p>
+                    Celebrated delightful an especially increasing instrument am. Happiness remainder joy but earnestly for off. Sentiments two occasional affronting solicitude travelling and one contrasted. Sportsman do offending supported extremity breakfast by listening. Detract yet delight written farther his general. Took sold add play may none him few.
+                </p>
+                <p class="link">Visit to Our WebSite</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
